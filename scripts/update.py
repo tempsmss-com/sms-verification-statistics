@@ -43,6 +43,25 @@ def load(argv):
         return json.load(r)
 
 
+FORMULA_START = ("=", "+", "-", "@", "\t", "\r")
+
+
+def cell(v):
+    """A CSV cell a spreadsheet will not run: text starting like a formula gets a leading apostrophe.
+    App names come from SMS sender IDs, which whoever sends the SMS chooses."""
+    if isinstance(v, str) and v.startswith(FORMULA_START):
+        return "'" + v
+    return v
+
+
+def md(v):
+    """Text for a Markdown table cell: no pipes, markup or line breaks."""
+    s = " ".join(str(v).split())
+    for ch in "\\`*_[]<>|#":
+        s = s.replace(ch, "\\" + ch)
+    return s
+
+
 def pct(v):
     return "" if v is None else f"{float(v):.1f}"
 
@@ -80,7 +99,7 @@ def append(name, rows):
         w = csv.writer(f, lineterminator="\n")
         if new:
             w.writerow(FILES[name])
-        w.writerows(rows)
+        w.writerows([[cell(v) for v in row] for row in rows])
 
 
 def day(iso):
@@ -93,14 +112,14 @@ def latest_block(s):
         START,
         f"In the 30 days to {day(s['period_end'])}, TempSMSS numbers received **{s['sms']:,}** verification SMS "
         f"on {s['numbers']:,} numbers in {s['countries_count']} countries. {s['apps_identified']:,} apps and services "
-        f"were identified; {top['app']} sent the most ({top['sms']:,} SMS, {float(top['share_pct']):.1f}%).",
+        f"were identified; {md(top['app'])} sent the most ({top['sms']:,} SMS, {float(top['share_pct']):.1f}%).",
         "",
         "| # | App | SMS | Share |",
         "|---|---|---:|---:|",
     ]
-    lines += [f"| {a['rank']} | {a['app']} | {a['sms']:,} | {float(a['share_pct']):.1f}% |" for a in s["apps"][:10]]
+    lines += [f"| {a['rank']} | {md(a['app'])} | {a['sms']:,} | {float(a['share_pct']):.1f}% |" for a in s["apps"][:10]]
     lines += ["", "| Country | SMS | Share | Numbers |", "|---|---:|---:|---:|"]
-    lines += [f"| {c['country']} | {c['sms']:,} | {float(c['share_pct']):.1f}% | {c['numbers']:,} |" for c in s["countries"]]
+    lines += [f"| {md(c['country'])} | {c['sms']:,} | {float(c['share_pct']):.1f}% | {c['numbers']:,} |" for c in s["countries"]]
     lines += ["", f"Window: {s['period_start']} to {s['period_end']} (UTC). Full tables in [`data/`](data/).", END]
     return "\n".join(lines)
 
