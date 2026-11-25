@@ -65,7 +65,7 @@ All files are UTF-8 CSV with a header row. Every snapshot adds rows to each file
 
 - **The set of numbers changes.** Numbers are added and retired every month (for example, many US and Canadian numbers were added in November 2026). A rise in raw counts can mean more numbers, not more sign-ups. Compare `share_pct` between snapshots, not `sms`.
 - **Public numbers attract particular sign-ups.** People use them for accounts they do not want to tie to their own phone. The mix of apps describes that use, not SMS verification in general.
-- **Windows overlap at the start.** The first snapshot ends on 23 November 2026. From then on, a snapshot is taken on the 1st of each month.
+- **Windows overlap at the start.** The first snapshot ends on 25 November 2026. From then on, a snapshot is taken on the 1st of each month.
 - **Hours are UTC.**
 
 ## Updates
