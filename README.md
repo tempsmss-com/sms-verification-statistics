@@ -7,6 +7,31 @@ The live version, recalculated every six hours, is at **https://tempsmss.com/sms
 ## Latest snapshot
 
 <!-- latest:start -->
+In the 30 days to 25 November 2026, TempSMSS numbers received **42,949** verification SMS on 805 numbers in 6 countries. 318 apps and services were identified; Instagram sent the most (4,186 SMS, 9.7%).
+
+| # | App | SMS | Share |
+|---|---|---:|---:|
+| 1 | Instagram | 4,186 | 9.7% |
+| 2 | Facebook | 3,653 | 8.5% |
+| 3 | TikTok | 3,111 | 7.2% |
+| 4 | Telegram | 1,927 | 4.5% |
+| 5 | WhatsApp | 1,606 | 3.7% |
+| 6 | SHEIN | 1,384 | 3.2% |
+| 7 | Discord | 900 | 2.1% |
+| 8 | Veo | 717 | 1.7% |
+| 9 | Google | 583 | 1.4% |
+| 10 | Kcex | 438 | 1.0% |
+
+| Country | SMS | Share | Numbers |
+|---|---:|---:|---:|
+| US | 20,539 | 47.8% | 113 |
+| UK | 10,107 | 23.5% | 254 |
+| Canada | 8,358 | 19.5% | 104 |
+| Netherlands | 1,906 | 4.4% | 197 |
+| Finland | 1,857 | 4.3% | 100 |
+| Belgium | 122 | 0.3% | 27 |
+
+Window: 2026-10-26T21:46:32Z to 2026-11-25T21:46:32Z (UTC). Full tables in [`data/`](data/).
 <!-- latest:end -->
 
 ## Files

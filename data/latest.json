@@ -1,0 +1,669 @@
+{
+ "period_start": "2026-10-26T21:46:32Z",
+ "period_end": "2026-11-25T21:46:32Z",
+ "sms": 42949,
+ "sms_previous_30d": 12321,
+ "numbers": 805,
+ "countries_count": 6,
+ "apps_identified": 318,
+ "apps": [
+  {
+   "rank": 1,
+   "app": "Instagram",
+   "sms": 4186,
+   "share_pct": 9.7,
+   "sms_previous_30d": 65,
+   "numbers": 124
+  },
+  {
+   "rank": 2,
+   "app": "Facebook",
+   "sms": 3653,
+   "share_pct": 8.5,
+   "sms_previous_30d": 568,
+   "numbers": 606
+  },
+  {
+   "rank": 3,
+   "app": "TikTok",
+   "sms": 3111,
+   "share_pct": 7.2,
+   "sms_previous_30d": 674,
+   "numbers": 503
+  },
+  {
+   "rank": 4,
+   "app": "Telegram",
+   "sms": 1927,
+   "share_pct": 4.5,
+   "sms_previous_30d": 639,
+   "numbers": 590
+  },
+  {
+   "rank": 5,
+   "app": "WhatsApp",
+   "sms": 1606,
+   "share_pct": 3.7,
+   "sms_previous_30d": 998,
+   "numbers": 468
+  },
+  {
+   "rank": 6,
+   "app": "SHEIN",
+   "sms": 1384,
+   "share_pct": 3.2,
+   "sms_previous_30d": 936,
+   "numbers": 330
+  },
+  {
+   "rank": 7,
+   "app": "Discord",
+   "sms": 900,
+   "share_pct": 2.1,
+   "sms_previous_30d": 725,
+   "numbers": 258
+  },
+  {
+   "rank": 8,
+   "app": "Veo",
+   "sms": 717,
+   "share_pct": 1.7,
+   "sms_previous_30d": 179,
+   "numbers": 310
+  },
+  {
+   "rank": 9,
+   "app": "Google",
+   "sms": 583,
+   "share_pct": 1.4,
+   "sms_previous_30d": 674,
+   "numbers": 332
+  },
+  {
+   "rank": 10,
+   "app": "Kcex",
+   "sms": 438,
+   "share_pct": 1,
+   "sms_previous_30d": 1,
+   "numbers": 118
+  },
+  {
+   "rank": 11,
+   "app": "Uber",
+   "sms": 427,
+   "share_pct": 1,
+   "sms_previous_30d": 65,
+   "numbers": 194
+  },
+  {
+   "rank": 12,
+   "app": "Roskaposti",
+   "sms": 407,
+   "share_pct": 0.9,
+   "sms_previous_30d": 0,
+   "numbers": 99
+  },
+  {
+   "rank": 13,
+   "app": "HER",
+   "sms": 353,
+   "share_pct": 0.8,
+   "sms_previous_30d": 4,
+   "numbers": 231
+  },
+  {
+   "rank": 14,
+   "app": "Apple",
+   "sms": 343,
+   "share_pct": 0.8,
+   "sms_previous_30d": 129,
+   "numbers": 147
+  },
+  {
+   "rank": 15,
+   "app": "Wise",
+   "sms": 289,
+   "share_pct": 0.7,
+   "sms_previous_30d": 15,
+   "numbers": 109
+  },
+  {
+   "rank": 16,
+   "app": "Signal",
+   "sms": 278,
+   "share_pct": 0.6,
+   "sms_previous_30d": 237,
+   "numbers": 135
+  },
+  {
+   "rank": 17,
+   "app": "PayPal",
+   "sms": 277,
+   "share_pct": 0.6,
+   "sms_previous_30d": 250,
+   "numbers": 78
+  },
+  {
+   "rank": 18,
+   "app": "OpenAI",
+   "sms": 242,
+   "share_pct": 0.6,
+   "sms_previous_30d": 205,
+   "numbers": 73
+  },
+  {
+   "rank": 19,
+   "app": "Rebtel",
+   "sms": 242,
+   "share_pct": 0.6,
+   "sms_previous_30d": 0,
+   "numbers": 114
+  },
+  {
+   "rank": 20,
+   "app": "Profee.com",
+   "sms": 228,
+   "share_pct": 0.5,
+   "sms_previous_30d": 0,
+   "numbers": 51
+  },
+  {
+   "rank": 21,
+   "app": "Keeta",
+   "sms": 217,
+   "share_pct": 0.5,
+   "sms_previous_30d": 1,
+   "numbers": 186
+  },
+  {
+   "rank": 22,
+   "app": "Grindr",
+   "sms": 204,
+   "share_pct": 0.5,
+   "sms_previous_30d": 185,
+   "numbers": 67
+  },
+  {
+   "rank": 23,
+   "app": "imo",
+   "sms": 202,
+   "share_pct": 0.5,
+   "sms_previous_30d": 29,
+   "numbers": 140
+  },
+  {
+   "rank": 24,
+   "app": "Deliveroo",
+   "sms": 197,
+   "share_pct": 0.5,
+   "sms_previous_30d": 38,
+   "numbers": 100
+  },
+  {
+   "rank": 25,
+   "app": "Platinumaps",
+   "sms": 183,
+   "share_pct": 0.4,
+   "sms_previous_30d": 0,
+   "numbers": 180
+  }
+ ],
+ "countries": [
+  {
+   "country": "US",
+   "sms": 20539,
+   "share_pct": 47.8,
+   "sms_previous_30d": 2318,
+   "numbers": 113
+  },
+  {
+   "country": "UK",
+   "sms": 10107,
+   "share_pct": 23.5,
+   "sms_previous_30d": 8142,
+   "numbers": 254
+  },
+  {
+   "country": "Canada",
+   "sms": 8358,
+   "share_pct": 19.5,
+   "sms_previous_30d": 0,
+   "numbers": 104
+  },
+  {
+   "country": "Netherlands",
+   "sms": 1906,
+   "share_pct": 4.4,
+   "sms_previous_30d": 1112,
+   "numbers": 197
+  },
+  {
+   "country": "Finland",
+   "sms": 1857,
+   "share_pct": 4.3,
+   "sms_previous_30d": 640,
+   "numbers": 100
+  },
+  {
+   "country": "Belgium",
+   "sms": 122,
+   "share_pct": 0.3,
+   "sms_previous_30d": 109,
+   "numbers": 27
+  }
+ ],
+ "country_apps": [
+  {
+   "country": "US",
+   "rank": 1,
+   "app": "Instagram",
+   "sms": 4156
+  },
+  {
+   "country": "US",
+   "rank": 2,
+   "app": "TikTok",
+   "sms": 1526
+  },
+  {
+   "country": "US",
+   "rank": 3,
+   "app": "Facebook",
+   "sms": 1411
+  },
+  {
+   "country": "US",
+   "rank": 4,
+   "app": "Telegram",
+   "sms": 426
+  },
+  {
+   "country": "US",
+   "rank": 5,
+   "app": "Discord",
+   "sms": 417
+  },
+  {
+   "country": "US",
+   "rank": 6,
+   "app": "Kcex",
+   "sms": 367
+  },
+  {
+   "country": "US",
+   "rank": 7,
+   "app": "Veo",
+   "sms": 298
+  },
+  {
+   "country": "US",
+   "rank": 8,
+   "app": "WhatsApp",
+   "sms": 271
+  },
+  {
+   "country": "UK",
+   "rank": 1,
+   "app": "Facebook",
+   "sms": 1432
+  },
+  {
+   "country": "UK",
+   "rank": 2,
+   "app": "SHEIN",
+   "sms": 1213
+  },
+  {
+   "country": "UK",
+   "rank": 3,
+   "app": "WhatsApp",
+   "sms": 671
+  },
+  {
+   "country": "UK",
+   "rank": 4,
+   "app": "Telegram",
+   "sms": 533
+  },
+  {
+   "country": "UK",
+   "rank": 5,
+   "app": "Discord",
+   "sms": 467
+  },
+  {
+   "country": "UK",
+   "rank": 6,
+   "app": "TikTok",
+   "sms": 454
+  },
+  {
+   "country": "UK",
+   "rank": 7,
+   "app": "Google",
+   "sms": 251
+  },
+  {
+   "country": "UK",
+   "rank": 8,
+   "app": "Uber",
+   "sms": 248
+  },
+  {
+   "country": "Canada",
+   "rank": 1,
+   "app": "TikTok",
+   "sms": 651
+  },
+  {
+   "country": "Canada",
+   "rank": 2,
+   "app": "WhatsApp",
+   "sms": 482
+  },
+  {
+   "country": "Canada",
+   "rank": 3,
+   "app": "Telegram",
+   "sms": 337
+  },
+  {
+   "country": "Canada",
+   "rank": 4,
+   "app": "Facebook",
+   "sms": 300
+  },
+  {
+   "country": "Canada",
+   "rank": 5,
+   "app": "Veo",
+   "sms": 268
+  },
+  {
+   "country": "Canada",
+   "rank": 6,
+   "app": "Wise",
+   "sms": 130
+  },
+  {
+   "country": "Canada",
+   "rank": 7,
+   "app": "SHEIN",
+   "sms": 80
+  },
+  {
+   "country": "Canada",
+   "rank": 8,
+   "app": "imo",
+   "sms": 70
+  },
+  {
+   "country": "Netherlands",
+   "rank": 1,
+   "app": "Telegram",
+   "sms": 443
+  },
+  {
+   "country": "Netherlands",
+   "rank": 2,
+   "app": "Facebook",
+   "sms": 325
+  },
+  {
+   "country": "Netherlands",
+   "rank": 3,
+   "app": "WhatsApp",
+   "sms": 158
+  },
+  {
+   "country": "Netherlands",
+   "rank": 4,
+   "app": "Google",
+   "sms": 152
+  },
+  {
+   "country": "Netherlands",
+   "rank": 5,
+   "app": "Keeta",
+   "sms": 131
+  },
+  {
+   "country": "Netherlands",
+   "rank": 6,
+   "app": "TikTok",
+   "sms": 129
+  },
+  {
+   "country": "Netherlands",
+   "rank": 7,
+   "app": "imo",
+   "sms": 108
+  },
+  {
+   "country": "Netherlands",
+   "rank": 8,
+   "app": "Grindr",
+   "sms": 28
+  },
+  {
+   "country": "Finland",
+   "rank": 1,
+   "app": "Roskaposti",
+   "sms": 407
+  },
+  {
+   "country": "Finland",
+   "rank": 2,
+   "app": "TikTok",
+   "sms": 319
+  },
+  {
+   "country": "Finland",
+   "rank": 3,
+   "app": "Facebook",
+   "sms": 184
+  },
+  {
+   "country": "Finland",
+   "rank": 4,
+   "app": "Telegram",
+   "sms": 149
+  },
+  {
+   "country": "Finland",
+   "rank": 5,
+   "app": "NXCOMM",
+   "sms": 118
+  },
+  {
+   "country": "Finland",
+   "rank": 6,
+   "app": "Google",
+   "sms": 80
+  },
+  {
+   "country": "Finland",
+   "rank": 7,
+   "app": "Chamet",
+   "sms": 65
+  },
+  {
+   "country": "Finland",
+   "rank": 8,
+   "app": "Grab",
+   "sms": 34
+  },
+  {
+   "country": "Belgium",
+   "rank": 1,
+   "app": "Telegram",
+   "sms": 32
+  },
+  {
+   "country": "Belgium",
+   "rank": 2,
+   "app": "TikTok",
+   "sms": 30
+  },
+  {
+   "country": "Belgium",
+   "rank": 3,
+   "app": "Shop",
+   "sms": 7
+  },
+  {
+   "country": "Belgium",
+   "rank": 4,
+   "app": "GBLion",
+   "sms": 6
+  },
+  {
+   "country": "Belgium",
+   "rank": 5,
+   "app": "imo",
+   "sms": 3
+  },
+  {
+   "country": "Belgium",
+   "rank": 6,
+   "app": "Bumble",
+   "sms": 2
+  },
+  {
+   "country": "Belgium",
+   "rank": 7,
+   "app": "Adopte",
+   "sms": 1
+  },
+  {
+   "country": "Belgium",
+   "rank": 8,
+   "app": "Badoo",
+   "sms": 1
+  }
+ ],
+ "hours": [
+  {
+   "hour_utc": 0,
+   "sms": 1738,
+   "share_pct": 4
+  },
+  {
+   "hour_utc": 1,
+   "sms": 1564,
+   "share_pct": 3.6
+  },
+  {
+   "hour_utc": 2,
+   "sms": 1601,
+   "share_pct": 3.7
+  },
+  {
+   "hour_utc": 3,
+   "sms": 1386,
+   "share_pct": 3.2
+  },
+  {
+   "hour_utc": 4,
+   "sms": 1521,
+   "share_pct": 3.5
+  },
+  {
+   "hour_utc": 5,
+   "sms": 1367,
+   "share_pct": 3.2
+  },
+  {
+   "hour_utc": 6,
+   "sms": 1341,
+   "share_pct": 3.1
+  },
+  {
+   "hour_utc": 7,
+   "sms": 1361,
+   "share_pct": 3.2
+  },
+  {
+   "hour_utc": 8,
+   "sms": 1352,
+   "share_pct": 3.1
+  },
+  {
+   "hour_utc": 9,
+   "sms": 1437,
+   "share_pct": 3.3
+  },
+  {
+   "hour_utc": 10,
+   "sms": 1584,
+   "share_pct": 3.7
+  },
+  {
+   "hour_utc": 11,
+   "sms": 1691,
+   "share_pct": 3.9
+  },
+  {
+   "hour_utc": 12,
+   "sms": 1878,
+   "share_pct": 4.4
+  },
+  {
+   "hour_utc": 13,
+   "sms": 2128,
+   "share_pct": 5
+  },
+  {
+   "hour_utc": 14,
+   "sms": 2192,
+   "share_pct": 5.1
+  },
+  {
+   "hour_utc": 15,
+   "sms": 2263,
+   "share_pct": 5.3
+  },
+  {
+   "hour_utc": 16,
+   "sms": 2350,
+   "share_pct": 5.5
+  },
+  {
+   "hour_utc": 17,
+   "sms": 2142,
+   "share_pct": 5
+  },
+  {
+   "hour_utc": 18,
+   "sms": 1971,
+   "share_pct": 4.6
+  },
+  {
+   "hour_utc": 19,
+   "sms": 2070,
+   "share_pct": 4.8
+  },
+  {
+   "hour_utc": 20,
+   "sms": 2052,
+   "share_pct": 4.8
+  },
+  {
+   "hour_utc": 21,
+   "sms": 1882,
+   "share_pct": 4.4
+  },
+  {
+   "hour_utc": 22,
+   "sms": 2012,
+   "share_pct": 4.7
+  },
+  {
+   "hour_utc": 23,
+   "sms": 2066,
+   "share_pct": 4.8
+  }
+ ],
+ "source": "https://tempsmss.com/sms-verification-statistics/",
+ "license": "CC BY 4.0"
+}
