@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these figures, please credit TempSMSS SMS verification statistics and link to https://tempsmss.com/sms-verification-statistics/"
+type: dataset
+title: "TempSMSS SMS verification statistics"
+abstract: "Monthly counts of SMS verification messages received by the public temporary phone numbers on tempsmss.com, by app or service, by country and by hour of the day (UTC)."
+authors:
+  - name: "TempSMSS"
+    website: "https://tempsmss.com/"
+    email: "info@tempsmss.com"
+license: CC-BY-4.0
+url: "https://tempsmss.com/sms-verification-statistics/"
+repository: "https://github.com/tempsmss-com/sms-verification-statistics"
+keywords:
+  - SMS verification
+  - one-time passwords
+  - OTP
+  - two-factor authentication
+  - temporary phone numbers
+  - A2P SMS
